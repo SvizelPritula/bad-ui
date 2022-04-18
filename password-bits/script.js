@@ -31,7 +31,6 @@ window.addEventListener("load", () => {
 
   function updateErrorMessage() {
     var bits = Array.from(findIdenticalBits(usernameInput.value, passwordInput.value));
-    console.log(bits);
 
     if (bits.length > 0) {
       var message = "Bits ";
